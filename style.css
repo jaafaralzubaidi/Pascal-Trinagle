@@ -1,0 +1,47 @@
+input[type='text'] {
+    width: 85%;
+}
+
+.container {
+    margin: 0 auto;
+    
+}
+
+.block {
+    position: relative;
+    display: inline-block;
+    border: 1px solid black;
+    text-align: center;
+    padding: 3px;
+    width: 40px;
+    margin: 2px 2px;
+}
+
+.block:nth-child(even) {
+    background: rgb(233, 231, 231);
+}
+
+.block:nth-child(odd) {
+    background: rgb(60, 142, 242);
+}
+
+#result {
+    margin: 10px auto;
+    text-align: center;
+    width: max-content;
+
+}
+
+
+/* #result .error {
+    color: red;
+    text-align: left;
+    margin-top: -6px;
+} */
+#message {
+    color: red;
+    /* background-color: black; */
+    text-align: left;
+    margin-top: -16px;
+
+}
